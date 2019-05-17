@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Интернет магазин Кот-Энерджи</title>
 </head>
@@ -97,6 +96,37 @@
         </ul>
       </div>
     </section>
+    <section class="example">
+      <div class="example__wrap" id="example__wrap">
+        <h2 class="example__tittle">Живой пример</h2>
+        <ul class="example__list">
+          <li class="example_item">
+            <p class="example__text">Борис сбросил 5 кг за 2 месяца, просто заменив
+              свой обычный корм на Cat Energy Slim.
+              Отличный результат без изнуряющих тренировок!
+              При этом он не менял своих привычек и по-прежнему
+              спит по 16 часов в день. </p>
+            <div class="example__block">
+              <div class="example__weight"><b>5 кг</b><span class="example__weight-text">снижение веса</span></div>
+              <div class="example__days"><b>60 дней</b><span class="example__days-text">затрачено времени</span></div>
+              <p class="example__cost">Затраты на питание: <span class="example__cost-text">15 000 руб.</span></p>
+            </div>
+          </li>
+          <li class="example_item">
+            <div class="example__block-img">
+              <img src="img/before-mobile.png" id="before" alt="" class="example__before">
+              <img src="img/after-mobile.png" id="after" alt="" class="example__after">
+            </div>
+            <form action="before-after">
+              <label class="example__before-text">Было</label>
+              <input class="rangeInput" type="range" name="range" id="range__b-a" min="0" max="1" value="0">
+              <label class="example__after-text">Стало</label>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </section>
   </main>
+<script src="js/range.js"></script>
 </body>
 </html>

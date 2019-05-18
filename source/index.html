@@ -114,12 +114,16 @@
           </li>
           <li class="example_item">
             <div class="example__block-img">
-              <img src="img/before-mobile.png" id="before" alt="" class="example__before">
-              <img src="img/after-mobile.png" id="after" alt="" class="example__after">
+              <figure  class="example__before-wrap">
+                <img src="img/before-mobile.png" id="before" alt="" class="example__before">
+              </figure >
+              <figure  class="example__after-wrap">
+                <img src="img/after-mobile.png" id="after" alt="" class="example__after">
+              </figure>
             </div>
             <form action="before-after">
               <label class="example__before-text">Было</label>
-              <input class="rangeInput" type="range" name="range" id="range__b-a" min="0" max="1" value="0">
+              <input class="rangeInput" type="range" name="range" step="1" id="range__b-a" min="0" max="1" value="0">
               <label class="example__after-text">Стало</label>
             </form>
           </li>

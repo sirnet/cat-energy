@@ -15,6 +15,7 @@ var example = function(width) {
 example(exampleWrap);
 
 rangeInput.oninput = function() {
+  var exampleWrap = document.getElementById("example__wrap").offsetWidth;
   if (exampleWrap <=768)
   if(document.getElementById("range__b-a").value == 1) {
     document.getElementById("before").style.display = "none";

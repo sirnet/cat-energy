@@ -7,8 +7,8 @@ var before__wrap = document.querySelector(".example__before-wrap").offsetWidth;
 var example = function(width) {
   console.log(width);
   if (width >= 768){
-    document.getElementById("range__b-a").max = "677";
-    document.getElementById("range__b-a").value = 677/2;
+    document.getElementById("range__b-a").max = "768";
+    document.getElementById("range__b-a").value = 768/2;
     console.log(rangeImg);
   }
 };
@@ -18,12 +18,11 @@ example(exampleWrap);
 rangeInput.oninput = function() {
   var i = 0;
   var exampleWrap = document.getElementById("example__wrap").offsetWidth;
- //var before__wrap = document.querySelector(".example__before-wrap").offsetWidth;
   i = document.getElementById("range__b-a").value;
   console.log(i);
 
   if(exampleWrap >=768){
-    document.querySelector(".example__before-wrap").style.width = 677 - i + "px";
+    document.querySelector(".example__before-wrap").style.width = 768 - i + "px";
     document.querySelector(".example__after-wrap").style.width = i + "px";
   }
 

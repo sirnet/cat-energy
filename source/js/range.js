@@ -1,14 +1,12 @@
 var rangeImg = document.getElementById("range__b-a").max;
 var exampleWrap = document.getElementById("example__wrap").offsetWidth;
 var rangeInput = document.querySelector(".rangeInput");
-var before__wrap = document.querySelector(".example__before-wrap").offsetWidth;
-
 
 var example = function(width) {
   console.log(width);
   if (width >= 768){
     document.getElementById("range__b-a").max = "768";
-    document.getElementById("range__b-a").value = 768/2;
+    document.getElementById("range__b-a").value = 384;
     console.log(rangeImg);
   }
 };

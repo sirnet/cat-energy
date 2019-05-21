@@ -27,7 +27,7 @@ rangeInput.oninput = function() {
   if (exampleWrap <=600) {
     if(document.getElementById("range__b-a").value == 1) {
       document.getElementById("before").style.display = "none";
-      document.getElementById("after").style.display = "block";
+      document.getElementById("after").style.display = "flex";
     }
   if(document.getElementById("range__b-a").value == 0) {
     document.getElementById("before").style.display = "block";

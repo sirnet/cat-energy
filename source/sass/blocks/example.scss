@@ -3,15 +3,15 @@
   justify-content: center;
   height: 705px;
   margin-top: 25px;
+  background: #f2f2f2;
 }
 
 .example__wrap {
-  background: #f2f2f2;
-  width: 320px;
+
+  width: 300px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-left: 20px;
 }
 
 .example__list {
@@ -123,6 +123,7 @@
   justify-content: center;
   padding-left: 10px;
   margin-bottom: 12px;
+  position: relative;
 }
 
 form {
@@ -172,12 +173,44 @@ form {
   margin-left: 19px;
 }
 
+.example__before-wrap {
+  width: 320px;
+  left: 0;
+  margin: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+.example__after-wrap {
+  width: 320px;
+  left: 0;
+  margin: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+.example__before {
+  left: 0;
+  margin: 0;
+  position: absolute;
+
+}
+
+.example__after {
+  position: absolute;
+  justify-content: center;
+
+}
+
 @media (min-width: 768px) {
   .example {
     display: flex;
     justify-content: center;
     height: 1082px;
     margin: 0;
+    background: none;
   }
 
   .example__wrap {

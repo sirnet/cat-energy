@@ -1,0 +1,39 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.footer__wrap {
+  width: 320px;
+
+}
+
+.footer__list {
+  padding: 0;
+
+}
+
+.footer__tittle {
+  width: 123px;
+  height: 57px;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding-right: 19px;
+}
+
+.footer__text {
+  width: 134px;
+  height: 53px;
+  color: #444444;
+  font-family: "ArialMT";
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.footer__item:nth-child(1) {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

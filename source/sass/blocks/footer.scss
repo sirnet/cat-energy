@@ -6,12 +6,12 @@
 
 .footer__wrap {
   width: 320px;
-
 }
 
 .footer__list {
   padding: 0;
-
+  list-style: none;
+  margin: 0;
 }
 
 .footer__tittle {
@@ -21,6 +21,7 @@
   line-height: 20px;
   text-transform: uppercase;
   padding-right: 19px;
+  margin: 0;
 }
 
 .footer__text {
@@ -30,10 +31,110 @@
   font-family: "ArialMT";
   font-size: 14px;
   line-height: 20px;
+  margin: 0;
 }
 
 .footer__item:nth-child(1) {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  height: 114px;
+  align-items: center;
+
+}
+
+.footer__item:nth-child(2) {
+  position: relative;
+}
+
+.footer__picture {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  width: 320px;
+}
+
+.footer__img {
+  height: 362px;
+  width: 1440px;
+  object-fit: cover;
+  background-position: left;
+}
+
+.footer__map-pin {
+  position: absolute;
+  top: 180px;
+  left: 136px;
+  width: 55px;
+  height: 53px;
+}
+
+.footer__item:nth-child(3) {
+  height: 236px;
+}
+
+.footer__list-wrap {
+  list-style: none;
+  padding-left: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer__item-block:nth-child(1) {
+  height: 95px;
+  width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #dadada;
+}
+
+.footer__item-block:nth-child(2) {
+  height: 60px;
+  width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #dadada;
+  img {
+    padding-right: 35px;
+  }
+}
+
+.footer__img-vk {
+  margin-left: 23px;
+}
+
+.footer__item-block:nth-child(3) {
+  height: 80px;
+  width: 280px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #444444;
+  font-family: "ArialMT";
+}
+
+.footer__logo-text {
+  float: left;
+  margin-top: 30px;
+}
+
+.footer__img-academy {
+  float: right;
+  margin-top: 22px;
+}
+
+@media (min-width: 768px) {
+
+  .footer__wrap {
+    width: 768px;
+  }
+
+  .footer__item:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
 }

@@ -200,3 +200,50 @@
     margin: 0;
   }
 }
+
+@media (min-width: 1440px){
+  .footer__wrap {
+    width: 1440px;
+  }
+
+  .footer__list {
+    position: relative;
+  }
+
+  .footer__item:nth-child(1) {
+    position: absolute;
+    z-index: 1;
+    background: #ffffff;
+    width: 570px;
+    height: 200px;
+    padding: 0;
+    top: 95px;
+    margin-left: 110px;
+  }
+
+  .footer__tittle {
+    padding-left: 70px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .footer__text {
+    padding-right: 90px;
+    font-size: 16px;
+    width: 145px;
+  }
+
+  .footer__img {
+    background: url("/img/map-desctop.png");
+  }
+
+  .footer__map-pin {
+    right: 310px;
+    top: 160px;
+    left: unset;
+  }
+
+  .footer__list-wrap {
+    width: 1220px;
+  }
+}

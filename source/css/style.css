@@ -1108,6 +1108,62 @@ form {
     z-index: 1;
     font-size: 20px; } }
 
+@media (min-width: 1440px) {
+  .example {
+    height: 580px;
+    margin-top: 60px; }
+  .example__wrap {
+    width: 1440px; }
+  .example__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    background: #f2f2f2;
+    top: 60px;
+    height: 462px; }
+  .example__tittle {
+    margin-left: 110px;
+    padding: 0; }
+  .example_item:nth-child(1) {
+    width: 450px;
+    height: 350px;
+    margin-right: 80px;
+    margin-top: 60px;
+    margin-left: 110px; }
+  .example__text {
+    width: 430px; }
+  .example__block {
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .example__cost {
+    left: 0;
+    width: 366px;
+    top: 125px;
+    text-align: left; }
+  .example__cost-text {
+    padding-left: 64px; }
+  .example__weight-text,
+  .example__days-text {
+    background: #f2f2f2;
+    font-size: 14px;
+    bottom: -5px; }
+  .example__after-wrap,
+  .example__before-wrap {
+    top: -220px;
+    background: none; }
+  .example__block-img {
+    height: 310px; } }
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1326,5 +1382,36 @@ form {
     margin-right: 23px; }
   .footer__img-academy {
     margin: 0; } }
+
+@media (min-width: 1440px) {
+  .footer__wrap {
+    width: 1440px; }
+  .footer__list {
+    position: relative; }
+  .footer__item:nth-child(1) {
+    position: absolute;
+    z-index: 1;
+    background: #ffffff;
+    width: 570px;
+    height: 200px;
+    padding: 0;
+    top: 95px;
+    margin-left: 110px; }
+  .footer__tittle {
+    padding-left: 70px;
+    font-size: 20px;
+    line-height: 25px; }
+  .footer__text {
+    padding-right: 90px;
+    font-size: 16px;
+    width: 145px; }
+  .footer__img {
+    background: url("/img/map-desctop.png"); }
+  .footer__map-pin {
+    right: 310px;
+    top: 160px;
+    left: unset; }
+  .footer__list-wrap {
+    width: 1220px; } }
 
 /*# sourceMappingURL=style.css.map */
